@@ -32,7 +32,7 @@ sdict = {
         'Programming Language :: Python'],
     'install_requires': [
         'mutagen==1.45.1',
-        'setuptools==2.31.0',
+        'requests==2.31.0',
     ]
     # 'ext_modules': [Extension('fdfs_client.sendfile',
     #                          sources=['fdfs_client/sendfilemodule.c'])],
