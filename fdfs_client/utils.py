@@ -5,7 +5,8 @@ from configparser import DEFAULTSECT, MissingSectionHeaderError, ParsingError, R
     NoSectionError
 import os
 import stat
-from mutagen._compat import StringIO
+# from mutagen._compat import StringIO
+from mutagen._senf._compat import StringIO
 
 from requests.compat import basestring
 
